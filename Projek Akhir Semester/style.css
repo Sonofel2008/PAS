@@ -1,0 +1,80 @@
+:root {
+    --container-width: 90%
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: url(theater-background-2560-x-1536-1h82i6rsyfj0fpij.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+
+/* nav {
+    height: 154px;
+    width: var(--container-width);
+    margin: 0px auto;
+} */
+
+nav div.top {
+    height: 62px;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+nav img.logo {
+    height: inherit;
+}
+
+nav div.top a.top-visit {
+    width: 150px;
+    height: inherit;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 62px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+nav div.top div.nav-top {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+
+nav div.top div.nav-top a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+section.hero {
+    height: calc(100vh - 154px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+
+}
